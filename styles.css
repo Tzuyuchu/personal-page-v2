@@ -1,0 +1,124 @@
+/* Set up */
+html, body {
+    margin: 0;
+    padding: 0;    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Page styling */
+.page {
+    display: flex;
+    height: 100vh;
+} 
+
+#home {
+    background: linear-gradient(to right, white 67%, #2C2C2C 67%);
+}
+
+/* Home elements */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 10%;
+    font-family: "Helvetica Neue", Inter, "Open Sans", Arial, Helvetica, sans-serif;
+    max-width: 55%;
+}
+
+.header h2 {
+    font-weight: 500;
+    font-size: 90px;
+    padding-bottom: 0.2em;
+}
+
+.header h3 {
+    font-weight: 500;
+    font-size: 40px;
+    max-width: 72%;
+    padding-bottom: 0.8em;
+}
+
+.button {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0.5em 0;
+    font-weight: 500;
+    font-size: 35px;
+    color: white;
+    padding: 0.3em 0.6em;
+    text-align: center;
+    border-radius: 0.4em;
+    background-color: #2C2C2C;
+    max-width: fit-content;
+}
+
+.button:hover {
+    background-color: #5a5a5a;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 3em;
+    top: 0.4em;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.navbar {
+    position: absolute;
+    left: 67%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    padding: 3em 2em;
+}
+
+.navheader {
+    padding: 0 0.5em;
+    color: white;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    border-bottom: 3px #2C2C2C solid;
+    transition: border-bottom 0.5s;
+}
+
+.navheader:hover {
+    border-bottom: 3px white solid;
+}
+
+.profile-image {
+    position: absolute;
+    left: 67%;
+    transform: translate(-50%);
+    align-self: center;
+    aspect-ratio: 0.67;
+    height: 50%;
+    background-color: grey;
+}
+
+.profile-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.endtab {
+    position: absolute;
+    height: 31px;
+    width: 100%;
+    align-self: flex-end;
+    background-color: white;
+}
+
+/* Projects elements */
+#projects {
+    background-color: #2C2C2C;
+}
