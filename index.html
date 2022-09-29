@@ -1,40 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nicholas Nguyen</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:500|Roboto:500,700">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Nicholas Nguyen" />
+    <title>Nicholas Nguyen - Personal Page</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter:500|Roboto:500,700|Caveat"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
     <script src="index.js"></script>
-</head>
-<body>
+  </head>
+  <body>
+    <div id="navbar">
+      <a href="#home" class="nav">
+        <iconify-icon class="nav" icon="bxs:home"></iconify-icon>
+      </a>
+      <a href="#about" class="nav">
+        <iconify-icon class="nav" icon="bi:person-fill"></iconify-icon>
+      </a>
+      <a href="#projects" class="nav">
+        <iconify-icon
+          class="nav"
+          icon="heroicons:rocket-launch-20-solid"
+        ></iconify-icon>
+      </a>
+      <a href="#contact" class="nav">
+        <iconify-icon class="nav" icon="ant-design:phone-filled"></iconify-icon>
+      </a>
+      <button onClick="setTheme()" title="Swap Mode" class="nav">
+        <iconify-icon class="nav" icon="clarity:moon-solid"></iconify-icon>
+      </button>
+    </div>
     <div class="page" id="home">
-        <div class="header">
-            <h2>Nicholas Nguyen</h2>
-            <h3>software engineer studying computer science @ UC Berkeley.</h3>
-            <button class="button" onClick="alert('nguyennicholas8@gmail.com')">contact me</button>
+      <div class="spacer"></div>
+      <div class="fluff">
+        <img src="self-pic.png" class="self-pic" />
+      </div>
+      <div class="logo"><h2>ntn.</h2></div>
+      <div class="header">
+        <h1 class="name">Nicholas Nguyen</h1>
+        <h4 class="description">
+          software engineer studying computer science @ UC Berkeley.
+        </h4>
+        <div class="contact-button-wrapper">
+          <a
+            href="https://drive.google.com/file/d/14AgwbJR3MC4lfYnKj131CASl94oygz6n/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-button"
+            >CV/Resume</a
+          >
+          <a
+            href="https://github.com/Tzuyuchu"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-button"
+          >
+            <iconify-icon icon="akar-icons:github-fill"></iconify-icon>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/nicholas-nguyen-292930b9/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-button"
+          >
+            <iconify-icon icon="akar-icons:linkedin-box-fill"></iconify-icon>
+          </a>
         </div>
-        <h1 class="logo">ntn.</h1>
-        <div class="navbar">
-            <a href="#projects" class="navheader">Work</a>
-            <a class="navheader">Play</a>
-            <a href="https://fullstackdecal.com/" class="navheader">About</a>
-            <a class="navheader">Resume</a>
+      </div>
+    </div>
+    <div class="page" id="about">
+      <div class="about-window">
+        <div class="boba">
+          <img src="boba.webp" class="boba-img" />
         </div>
-        <div class="profile-image">
-            <img src="self-pic.png" alt="Image.">
+        <div class="window-bar">
+          <div class="dot" style="background-color: red"></div>
+          <div class="dot" style="background-color: yellow"></div>
+          <div class="dot" style="background-color: green"></div>
         </div>
-        <div class="endtab"></div>
+        <div class="about-content">
+          <h3 class="about-header">about me.</h3>
+          <ul class="about-text">
+            <li>Nature enthusiast with an appreciation for high adventure</li>
+            <li>
+              Hobbies: hiking, performing lion dances, listening to music,
+              trying food, watching anime
+            </li>
+            <li>Getting into k-pop dancing and photography</li>
+          </ul>
+          <div class="about-header">skills.</div>
+          <div class="about-skills">
+            <iconify-icon icon="logos:java"></iconify-icon>
+            <iconify-icon icon="logos:python"></iconify-icon>
+            <iconify-icon icon="bxl:c-plus-plus"></iconify-icon>
+            <iconify-icon icon="logos:javascript"></iconify-icon>
+            <iconify-icon icon="logos:typescript-icon"></iconify-icon>
+            <iconify-icon icon="logos:kotlin-icon"></iconify-icon>
+            <div style="width: 30px"></div>
+            <iconify-icon icon="logos:react"></iconify-icon>
+            <iconify-icon icon="bi:git"></iconify-icon>
+            <iconify-icon icon="simple-icons:neovim"></iconify-icon>
+            <iconify-icon icon="logos:mysql-icon"></iconify-icon>
+            <iconify-icon icon="file-icons:latex"></iconify-icon>
+            <iconify-icon icon="logos:numpy"></iconify-icon>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="page" id="projects">
-        <div class="project-titles"></div>
-            <div></div>
-        </div>
-        <div class="project-body"></div>
-        <div class="project-body"></div>
-        <div class="project-body"></div>
+
     </div>
-</body>
+  </body>
 </html>
