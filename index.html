@@ -7,7 +7,7 @@
     <title>Nicholas Nguyen - Personal Page</title>
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Inter:500|Roboto:500,700|Caveat"
+      href="https://fonts.googleapis.com/css?family=Inter:500|Roboto:400,500,700|Caveat|Cairo+Play:600"
     />
     <link rel="stylesheet" href="styles.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -38,7 +38,7 @@
     <div class="page" id="home">
       <div class="spacer"></div>
       <div class="fluff">
-        <img src="self-pic.png" class="self-pic" />
+        <img src="public/self-pic.png" alt="Picture of self" class="self-pic" />
       </div>
       <div class="logo"><h2>ntn.</h2></div>
       <div class="header">
@@ -76,7 +76,7 @@
     <div class="page" id="about">
       <div class="about-window">
         <div class="boba">
-          <img src="boba.webp" class="boba-img" />
+          <img src="public/boba.webp" alt="boba graphic" class="boba-img" />
         </div>
         <div class="window-bar">
           <div class="dot" style="background-color: red"></div>
@@ -84,7 +84,7 @@
           <div class="dot" style="background-color: green"></div>
         </div>
         <div class="about-content">
-          <h3 class="about-header">about me.</h3>
+          <h2 class="about-header">about me.</h2>
           <ul class="about-text">
             <li>Nature enthusiast with an appreciation for high adventure</li>
             <li>
@@ -93,8 +93,8 @@
             </li>
             <li>Getting into k-pop dancing and photography</li>
           </ul>
-          <div class="about-header">skills.</div>
-          <div class="about-skills">
+          <h3 class="about-header">skills.</h3>
+          <div class="about-skill-icons">
             <iconify-icon icon="logos:java"></iconify-icon>
             <iconify-icon icon="logos:python"></iconify-icon>
             <iconify-icon icon="bxl:c-plus-plus"></iconify-icon>
@@ -113,7 +113,86 @@
       </div>
     </div>
     <div class="page" id="projects">
-
+      <h2>Projects - For Fun</h2>
+      <div class="project-wrapper">
+        <a
+          href="https://github.com/Tzuyuchu/escape-the-factory"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project-block"
+        >
+          <img src="public/etf.png" alt="Escape the Factory image" />
+          <h5 class="project-name">
+            Escape the Factory! -<br />Dungeon Crawl Video Game
+          </h5>
+        </a>
+        <a
+          href="https://cs61bl.org/su22/projects/gitlet/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project-block"
+        >
+          <img src="public/gitlet.png" alt="Gitlet image" />
+          <h5 class="project-name">
+            Gitlet - Version Control System<br />(CS 61BL)
+          </h5>
+        </a>
+        <a
+          href="https://tzuyuchu.github.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project-block"
+        >
+          <img src="public/cat.png" alt="Cats image" />
+          <h5 class="project-name">
+            Cats for a Better World -<br />BridgeHacks 2020
+          </h5>
+        </a>
+        <a
+          href="https://scratch.mit.edu/users/nn69607/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project-block"
+        >
+          <img src="public/scratch.png" alt="Scratch image" />
+          <h5 class="project-name">Scratch Projects</h5>
+        </a>
+      </div>
+    </div>
+    <div class="page" id="contact">
+      <div class="cat-bg"></div>
+      <div class="socials-box">
+        <h2 class="social-header">- contact -</h2>
+        <h6 class="social-body">
+          <iconify-icon icon="eva:email-outline"></iconify-icon>
+          Personal (preferred): nguyennicholas8@gmail.com
+        </h6>
+        <h6 class="social-body">
+          <iconify-icon icon="cil:school"></iconify-icon>
+          School: ntn.nicholas@berkeley.edu
+        </h6>
+        <h6 class="social-body">
+          <iconify-icon icon="akar-icons:phone"></iconify-icon>
+          Mobile: (408) 646-8628
+        </h6>
+        <h3 class="social-header">- socials -</h3>
+        <h6 class="social-body">
+          <iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
+          Insta:
+          <a href="https://www.instagram.com/nicholas.nguyen.258/"
+            >nicholas.nguyen.258</a
+          >
+        </h6>
+        <h6 class="social-body">
+          <iconify-icon icon="akar-icons:discord-fill"></iconify-icon>
+          Discord: tzu#6051
+        </h6>
+        <h6 class="social-body">
+          <iconify-icon icon="akar-icons:facebook-fill"></iconify-icon>
+          Facebook:
+          <a href="https://www.facebook.com/ntn.nicholas/">ntn.nicholas</a>
+        </h6>
+      </div>
     </div>
   </body>
 </html>

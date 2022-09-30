@@ -6,6 +6,14 @@ $(document).on('click', 'a[href^="#"]', function (event) {
     }, 700);
 });
 
+if (window.matchMedia && !window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    document.documentElement.className = "light";
+}
+
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+    document.documentElement.className = event.matches ? "dark" : "light";
+});
+
 const setTheme = () => {
     if(document.documentElement.className == "light") {
         document.documentElement.className = "dark";
