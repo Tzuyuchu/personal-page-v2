@@ -1,201 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Nicholas Nguyen" />
-    <title>Nicholas Nguyen - Personal Page</title>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Inter:500|Roboto:400,500,700|Caveat|Cairo+Play:600"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
-    <script src="index.js"></script>
-  </head>
-  <body>
-    <div id="navbar">
-      <a href="#home" class="nav">
-        <iconify-icon class="nav" icon="bxs:home"></iconify-icon>
-      </a>
-      <a href="#about" class="nav">
-        <iconify-icon class="nav" icon="bi:person-fill"></iconify-icon>
-      </a>
-      <a href="#projects" class="nav">
-        <iconify-icon
-          class="nav"
-          icon="heroicons:rocket-launch-20-solid"
-        ></iconify-icon>
-      </a>
-      <a href="#contact" class="nav">
-        <iconify-icon class="nav" icon="ant-design:phone-filled"></iconify-icon>
-      </a>
-      <button onClick="setTheme()" title="Swap Mode" class="nav">
-        <iconify-icon class="nav" icon="clarity:moon-solid"></iconify-icon>
-      </button>
-    </div>
-    <div class="page" id="home">
-      <div class="spacer"></div>
-      <div class="fluff">
-        <img src="content/self-pic.png" alt="Picture of self" class="self-pic" />
-      </div>
-      <div class="logo"><h2>ntn.</h2></div>
-      <div class="header">
-        <h1 class="name">Nicholas Nguyen</h1>
-        <h4 class="description">
-          software engineer studying computer science @ UC Berkeley.
-        </h4>
-        <div class="contact-button-wrapper">
-          <a
-            href="https://drive.google.com/file/d/14AgwbJR3MC4lfYnKj131CASl94oygz6n/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="contact-button"
-            >CV/Resume</a
-          >
-          <a
-            href="https://github.com/Tzuyuchu"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="contact-button"
-          >
-            <iconify-icon icon="akar-icons:github-fill"></iconify-icon>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/nicholas-nguyen-292930b9/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="contact-button"
-          >
-            <iconify-icon icon="akar-icons:linkedin-box-fill"></iconify-icon>
-          </a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Nicholas Nguyen" />
+        <title>Nicholas Nguyen - Personal Page</title>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Inter:500|Roboto:400,500,700|Caveat|Cairo+Play:600"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="content/favicon.ico" type="image/x-icon" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div id="navbar">
+            <a href="#home" class="nav">
+                <iconify-icon class="nav" icon="bxs:home"></iconify-icon>
+            </a>
+            <a href="#about" class="nav">
+                <iconify-icon class="nav" icon="bi:person-fill"></iconify-icon>
+            </a>
+            <a href="#projects" class="nav">
+                <iconify-icon
+                    class="nav"
+                    icon="heroicons:rocket-launch-20-solid"
+                ></iconify-icon>
+            </a>
+            <a href="#contact" class="nav">
+                <iconify-icon
+                    class="nav"
+                    icon="ant-design:phone-filled"
+                ></iconify-icon>
+            </a>
+            <button onClick="setTheme()" title="Swap Mode" class="nav">
+                <iconify-icon
+                    class="nav"
+                    icon="clarity:moon-solid"
+                ></iconify-icon>
+            </button>
         </div>
-      </div>
-    </div>
-    <div class="page" id="about">
-      <div class="about-window">
-        <div class="boba">
-          <img src="content/boba.webp" alt="boba graphic" class="boba-img" />
+        <div class="page" id="home">
+            <div class="spacer"></div>
+            <div class="fluff">
+                <img
+                    src="content/self-pic.png"
+                    alt="Picture of self"
+                    class="self-pic"
+                />
+            </div>
+            <div class="logo"><h2>ntn.</h2></div>
+            <div class="header">
+                <h1 class="name">Nicholas Nguyen</h1>
+                <h4 class="description">
+                    software engineer studying computer science @ UC Berkeley.
+                </h4>
+                <div class="contact-button-wrapper">
+                    <a
+                        href="https://drive.google.com/file/d/14AgwbJR3MC4lfYnKj131CASl94oygz6n/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-button"
+                        >CV/Resume</a
+                    >
+                    <a
+                        href="https://github.com/Tzuyuchu"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-button"
+                    >
+                        <iconify-icon
+                            icon="akar-icons:github-fill"
+                        ></iconify-icon>
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/nicholas-nguyen-292930b9/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-button"
+                    >
+                        <iconify-icon
+                            icon="akar-icons:linkedin-box-fill"
+                        ></iconify-icon>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="window-bar">
-          <div class="dot" style="background-color: red"></div>
-          <div class="dot" style="background-color: yellow"></div>
-          <div class="dot" style="background-color: green"></div>
+        <div class="page" id="about">
+            <div class="about-window">
+                <div class="boba">
+                    <img
+                        src="content/boba.webp"
+                        alt="boba graphic"
+                        class="boba-img"
+                    />
+                </div>
+                <div class="window-bar">
+                    <div class="dot" style="background-color: red"></div>
+                    <div class="dot" style="background-color: yellow"></div>
+                    <div class="dot" style="background-color: green"></div>
+                </div>
+                <div class="about-content">
+                    <h2 class="about-header">about me.</h2>
+                    <ul class="about-text">
+                        <li>
+                            Nature enthusiast with an appreciation for high
+                            adventure
+                        </li>
+                        <li>
+                            Hobbies: hiking, performing lion dances, listening
+                            to music, trying food, watching anime
+                        </li>
+                        <li>Getting into k-pop dancing and photography</li>
+                    </ul>
+                    <h3 class="about-header">skills.</h3>
+                    <div class="about-skill-icons">
+                        <iconify-icon icon="logos:java"></iconify-icon>
+                        <iconify-icon icon="logos:python"></iconify-icon>
+                        <iconify-icon icon="bxl:c-plus-plus"></iconify-icon>
+                        <iconify-icon icon="logos:javascript"></iconify-icon>
+                        <iconify-icon
+                            icon="logos:typescript-icon"
+                        ></iconify-icon>
+                        <iconify-icon icon="logos:kotlin-icon"></iconify-icon>
+                        <div style="width: 30px"></div>
+                        <iconify-icon icon="logos:react"></iconify-icon>
+                        <iconify-icon icon="bi:git"></iconify-icon>
+                        <iconify-icon icon="simple-icons:neovim"></iconify-icon>
+                        <iconify-icon icon="logos:mysql-icon"></iconify-icon>
+                        <iconify-icon icon="file-icons:latex"></iconify-icon>
+                        <iconify-icon icon="logos:numpy"></iconify-icon>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="about-content">
-          <h2 class="about-header">about me.</h2>
-          <ul class="about-text">
-            <li>Nature enthusiast with an appreciation for high adventure</li>
-            <li>
-              Hobbies: hiking, performing lion dances, listening to music,
-              trying food, watching anime
-            </li>
-            <li>Getting into k-pop dancing and photography</li>
-          </ul>
-          <h3 class="about-header">skills.</h3>
-          <div class="about-skill-icons">
-            <iconify-icon icon="logos:java"></iconify-icon>
-            <iconify-icon icon="logos:python"></iconify-icon>
-            <iconify-icon icon="bxl:c-plus-plus"></iconify-icon>
-            <iconify-icon icon="logos:javascript"></iconify-icon>
-            <iconify-icon icon="logos:typescript-icon"></iconify-icon>
-            <iconify-icon icon="logos:kotlin-icon"></iconify-icon>
-            <div style="width: 30px"></div>
-            <iconify-icon icon="logos:react"></iconify-icon>
-            <iconify-icon icon="bi:git"></iconify-icon>
-            <iconify-icon icon="simple-icons:neovim"></iconify-icon>
-            <iconify-icon icon="logos:mysql-icon"></iconify-icon>
-            <iconify-icon icon="file-icons:latex"></iconify-icon>
-            <iconify-icon icon="logos:numpy"></iconify-icon>
-          </div>
+        <div class="page" id="projects">
+            <h2>Projects - For Fun</h2>
+            <div class="project-wrapper">
+                <a
+                    href="https://github.com/Tzuyuchu/escape-the-factory"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-block"
+                >
+                    <img src="content/etf.png" alt="Escape the Factory image" />
+                    <h5 class="project-name">
+                        Escape the Factory! -<br />Dungeon Crawl Video Game
+                    </h5>
+                </a>
+                <a
+                    href="https://cs61bl.org/su22/projects/gitlet/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-block"
+                >
+                    <img src="content/gitlet.png" alt="Gitlet image" />
+                    <h5 class="project-name">
+                        Gitlet - Version Control System<br />(CS 61BL)
+                    </h5>
+                </a>
+                <a
+                    href="https://tzuyuchu.github.io/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-block"
+                >
+                    <img src="content/cat.png" alt="Cats image" />
+                    <h5 class="project-name">
+                        Cats for a Better World -<br />BridgeHacks 2020
+                    </h5>
+                </a>
+                <a
+                    href="https://scratch.mit.edu/users/nn69607/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-block"
+                >
+                    <img src="content/scratch.png" alt="Scratch image" />
+                    <h5 class="project-name">Scratch Projects</h5>
+                </a>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="page" id="projects">
-      <h2>Projects - For Fun</h2>
-      <div class="project-wrapper">
-        <a
-          href="https://github.com/Tzuyuchu/escape-the-factory"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="project-block"
-        >
-          <img src="content/etf.png" alt="Escape the Factory image" />
-          <h5 class="project-name">
-            Escape the Factory! -<br />Dungeon Crawl Video Game
-          </h5>
-        </a>
-        <a
-          href="https://cs61bl.org/su22/projects/gitlet/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="project-block"
-        >
-          <img src="content/gitlet.png" alt="Gitlet image" />
-          <h5 class="project-name">
-            Gitlet - Version Control System<br />(CS 61BL)
-          </h5>
-        </a>
-        <a
-          href="https://tzuyuchu.github.io/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="project-block"
-        >
-          <img src="content/cat.png" alt="Cats image" />
-          <h5 class="project-name">
-            Cats for a Better World -<br />BridgeHacks 2020
-          </h5>
-        </a>
-        <a
-          href="https://scratch.mit.edu/users/nn69607/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="project-block"
-        >
-          <img src="content/scratch.png" alt="Scratch image" />
-          <h5 class="project-name">Scratch Projects</h5>
-        </a>
-      </div>
-    </div>
-    <div class="page" id="contact">
-      <div class="socials-box">
-        <div style="display: flex; flex-flow: column nowrap">
-          <h2 class="social-header">- contact -</h2>
-          <h6 class="social-body">
-            <iconify-icon icon="eva:email-outline"></iconify-icon>
-            Personal (preferred): nguyennicholas8@gmail.com
-          </h6>
-          <h6 class="social-body">
-            <iconify-icon icon="cil:school"></iconify-icon>
-            School: ntn.nicholas@berkeley.edu
-          </h6>
-          <h6 class="social-body">
-            <iconify-icon icon="akar-icons:phone"></iconify-icon>
-            Mobile: (408) 646-8628
-          </h6>
-          <div style="height: 25px"></div>
-          <h3 class="social-header">- socials -</h3>
-          <h6 class="social-body">
-            <iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
-            Insta:
-            <a href="https://www.instagram.com/nicholas.nguyen.258/"
-              >nicholas.nguyen.258</a
-            >
-          </h6>
-          <h6 class="social-body">
-            <iconify-icon icon="akar-icons:discord-fill"></iconify-icon>
-            Discord: tzu#6051
-          </h6>
-          <h6 class="social-body">
-            <iconify-icon icon="akar-icons:facebook-fill"></iconify-icon>
-            Facebook:
-            <a href="https://www.facebook.com/ntn.nicholas/">ntn.nicholas</a>
-          </h6>
+        <div class="page" id="contact">
+            <div class="socials-box">
+                <div style="display: flex; flex-flow: column nowrap">
+                    <h2 class="social-header">- contact -</h2>
+                    <h6 class="social-body">
+                        <iconify-icon icon="eva:email-outline"></iconify-icon>
+                        Personal (preferred): nguyennicholas8@gmail.com
+                    </h6>
+                    <h6 class="social-body">
+                        <iconify-icon icon="cil:school"></iconify-icon>
+                        School: ntn.nicholas@berkeley.edu
+                    </h6>
+                    <h6 class="social-body">
+                        <iconify-icon icon="akar-icons:phone"></iconify-icon>
+                        Mobile: (408) 646-8628
+                    </h6>
+                    <div style="height: 25px"></div>
+                    <h3 class="social-header">- socials -</h3>
+                    <h6 class="social-body">
+                        <iconify-icon
+                            icon="akar-icons:instagram-fill"
+                        ></iconify-icon>
+                        Insta:
+                        <a href="https://www.instagram.com/nicholas.nguyen.258/"
+                            >nicholas.nguyen.258</a
+                        >
+                    </h6>
+                    <h6 class="social-body">
+                        <iconify-icon
+                            icon="akar-icons:discord-fill"
+                        ></iconify-icon>
+                        Discord: tzu#6051
+                    </h6>
+                    <h6 class="social-body">
+                        <iconify-icon
+                            icon="akar-icons:facebook-fill"
+                        ></iconify-icon>
+                        Facebook:
+                        <a href="https://www.facebook.com/ntn.nicholas/"
+                            >ntn.nicholas</a
+                        >
+                    </h6>
+                    <div class="comment-wrapper">
+                        <form
+                            name="commentForm"
+                            action="#"
+                            onsubmit="thank();return false"
+                        >
+                            <label for="comment"
+                                >Enjoyed the site? Leave a comment:
+                            </label>
+                            <input type="text" id="comment" />
+                            <input
+                                type="submit"
+                                value="Submit"
+                                class="submit-button"
+                            />
+                        </form>
+                        <div id="past-comments"></div>
+                        <div id="thank-you"></div>
+                    </div>
+                </div>
+                <div class="coffee">
+                    <img
+                        src="content/coffee.webp"
+                        alt="Coffee image"
+                        class="coffee-img"
+                    />
+                </div>
+            </div>
         </div>
-        <img src="content/coffee.webp" alt="Coffee image">
-      </div>
-    </div>
-  </body>
+    </body>
 </html>
